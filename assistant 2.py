@@ -84,6 +84,22 @@ def tellDay():
         print(day_of_the_week)
         speak("The day is " + day_of_the_week)
 
+def findphone():
+    webbrowser.open("https://www.icloud.com")
+    pyautogui.moveTo(883, 668, duration = 5)
+    pyautogui.leftClick(883,668)
+    pyautogui. leftclick(955, 623)
+    pyautogui. leftclick(1098, 571)
+    pyautogui.leftclick(1094,613)
+    pyautogui.leftclick(1277,829)
+    pyautogui.moveTo(954, 636, duration, = 2)|
+    pyautogui. leftclick(954, 636)
+    pyautogui.leftclick(948,664)
+    pyautogui.leftclick(951,695)
+    pyautogui.moveTo(969, 119, duration = 2)
+    pyautogui.leftclick(969,119)
+    pyautogui. leftClick(955, 280)
+    pyautogui.leftClick(64,337)
 
 def tellTime():
     now = datetime.now()
@@ -190,10 +206,7 @@ def Take_query():
             playstarcraft()
 
         if "find my phone" in query:
-            webbrowser.open("https://www.icloud.com/find/")
-            pyautogui.moveTo(958, 115, duration = 2)
-            pyautogui.leftClick(958.115)
-            pyautogui.leftClick(962,314)
+            findphone()
 
 
 
